@@ -29,12 +29,12 @@ namespace BTlight {
 /**
  * Function used for simulator, actual implementation is in gatorlight.cpp
  */
-//% shim=BTlight::send
+//% shim=BTlight::BT_send
 function BT_send(ADCVal: number) {
     // Fake function for simulator
     return 0
 }
-//% shim=BTlight::init
+//% shim=BTlight::BT_init
 function BT_init() {
     // Fake function for simulator
 }
