@@ -13,8 +13,8 @@ MicroBitUARTService *uart;
 namespace BTlight {
     //%
     void BT_init(void) {
-        uart = new MicroBitUARTService(*uBit.ble, 32, 32); 
-        uBit.display.scroll("AVM");    
+        // uart = new MicroBitUARTService(*uBit.ble, 32, 32); 
+        // uBit.display.scroll("AVM");    
         // release_fiber();
     }
 
