@@ -16,11 +16,11 @@ namespace BTlight {
     /**
     *
     */
-    //% weight=30 blockId="BTlight_init" block="init UART"
+    //% weight=30 blockId="BTlight_BTinit" block="init UART"
     export function BTinit() {
-        BT_init();
+        BT_init(0);
     }
-    //% weight=30 blockId="BTlight_send" block="send UART"
+    //% weight=30 blockId="BTlight_BTsend" block="send UART"
     export function BTsend(packet: number): number {
         return 2;
     }
@@ -35,6 +35,7 @@ function BT_send(ADCVal: number) {
     return 0
 }
 //% shim=BTlight::BT_init
-function BT_init() {
+function BT_init(x: number) {
     // Fake function for simulator
+    return 0;
 }
