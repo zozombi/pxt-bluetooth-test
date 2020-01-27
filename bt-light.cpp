@@ -3,17 +3,13 @@
 
 
 #include "pxt.h"
-#include "MicroBitUARTService.h"
+// #include "MicroBitUARTService.h"
 #include <cstdint>
 #include <math.h>
 
 using namespace pxt;
 
 namespace BTlight {
-    // #define MICROBIT_SD_GATT_TABLE_SIZE             0x500
-    
-
-
     //%
     void BT_init(void) {
         // MicroBitUARTService *uart;
