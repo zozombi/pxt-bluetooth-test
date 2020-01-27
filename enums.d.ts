@@ -1,5 +1,5 @@
 // Auto-generated. Do not edit.
-declare namespace bt {
+declare namespace bluetooth {
 }
 declare namespace BTlight {
 }
