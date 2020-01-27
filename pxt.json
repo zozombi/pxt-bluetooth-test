@@ -1,0 +1,21 @@
+{
+    "name": "bt-light",
+    "version": "0.0.1",
+    "description": "Bluetooth light",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+				"bluetooth": "*"
+    },
+    "files": [
+        "README.md",
+        "bt-light.ts",
+        "bt-light.cpp",
+        "shims.d.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [],
+    "public": true,
+    "preferredEditor": "tsprj",
+    "installedVersion": "workspace:dc77c768-6eb7-4ef9-c6e3-a9d2caaeb737"
+}
