@@ -11,7 +11,8 @@
         "bt-light.ts",
         "bt-light.cpp",
         "shims.d.ts",
-        "enums.d.ts"
+        "enums.d.ts",
+        "BLEHF2Service.ts"
     ],
     "testFiles": [],
     "public": true,
