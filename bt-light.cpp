@@ -3,17 +3,17 @@
 
 
 #include "pxt.h"
-// #include "MicroBitUARTService.h"
+#include "MicroBitUARTService.h"
 #include <cstdint>
 #include <math.h>
 
 using namespace pxt;
+MicroBitUARTService *uart;
 
 namespace BTlight {
     //%
     void BT_init(void) {
-        // MicroBitUARTService *uart;
-        // uart = new MicroBitUARTService(*uBit.ble, 32, 32); 
+        uart = new MicroBitUARTService(*uBit.ble, 32, 32); 
         uBit.display.scroll("AVM");    
         // release_fiber();
     }

@@ -18,7 +18,7 @@ namespace BTlight {
     */
     //% weight=30 blockId="BTlight_init" block="init UART"
     export function BTinit() {
-        BTlight.BTinit();
+        BT_init();
     }
     //% weight=30 blockId="BTlight_send" block="send UART"
     export function BTsend(packet: number): number {
