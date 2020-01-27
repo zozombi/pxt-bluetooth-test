@@ -8,9 +8,6 @@
 #include <math.h>
 
 using namespace pxt;
-MicroBitUARTService *uart;
-
-
 
 namespace BTlight {
     // #define MICROBIT_SD_GATT_TABLE_SIZE             0x500
@@ -19,6 +16,7 @@ namespace BTlight {
 
     //%
     void BT_init(void) {
+        MicroBitUARTService *uart;
         uart = new MicroBitUARTService(*uBit.ble, 32, 32); 
         uBit.display.scroll("AVM");    
     }
