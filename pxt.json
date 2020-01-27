@@ -11,7 +11,7 @@
         "BLEHF2Service.cpp",
         "BLEHF2Service.h",
         "bluetooth.cpp",
-        "bluetooth.h",
+        "bluetooth.ts",
         "bt-light.ts",
         "bt-light.cpp",
         "shims.d.ts",
