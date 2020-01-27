@@ -3,10 +3,12 @@
 
 
 #include "pxt.h"
+#include "MicroBitUARTService.h"
 #include <cstdint>
 #include <math.h>
 
 using namespace pxt;
+MicroBitUARTService *uart;
 
 namespace BTlight {
     /*
