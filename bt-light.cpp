@@ -22,7 +22,7 @@ namespace BTlight {
         uart = new MicroBitUARTService(*uBit.ble, 32, 32); 
         uBit.display.scroll("AVM"); 
         uBit.messageBus.listen(MICROBIT_ID_BLE, MICROBIT_BLE_EVT_CONNECTED, onConnected);   
-        //release_fiber();
+        release_fiber();
         return 111111;
     }
 
