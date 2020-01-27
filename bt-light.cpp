@@ -6,7 +6,7 @@
 #include <math.h>
 
 using namespace pxt;
-MicroBitUARTService *uart;
+// MicroBitUARTService *uart;
 
 namespace BTlight {
     //%
@@ -17,10 +17,10 @@ namespace BTlight {
 
     //%
     uint16_t BT_init(int x) {
-        uart = new MicroBitUARTService(*uBit.ble, 32, 32); 
+        // uart = new MicroBitUARTService(*uBit.ble, 32, 32); 
         uBit.display.scroll("AVM"); 
-        uBit.messageBus.listen(MICROBIT_ID_BLE, MICROBIT_BLE_EVT_CONNECTED, onConnected);   
-        release_fiber();
+        // uBit.messageBus.listen(MICROBIT_ID_BLE, MICROBIT_BLE_EVT_CONNECTED, onConnected);   
+        // release_fiber();
         return 111111;
     }
 
