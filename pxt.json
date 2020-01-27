@@ -4,8 +4,8 @@
     "description": "Bluetooth light",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
-				"bluetooth": "*"
+        "core": "*",
+	"bluetooth": "*"
     },
     "files": [
         "README.md",
