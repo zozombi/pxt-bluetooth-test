@@ -12,7 +12,9 @@
         "bt-light.cpp",
         "shims.d.ts",
         "enums.d.ts",
-        "BLEHF2Service.ts"
+        "BLEHF2Service.ts",
+        "BLEHF2Service.cpp",
+        "BLEHF2Service.h"
     ],
     "testFiles": [],
     "public": true,
