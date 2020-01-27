@@ -4,8 +4,7 @@
     "description": "Bluetooth light",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-	"bluetooth": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
@@ -17,5 +16,16 @@
     "testFiles": [],
     "public": true,
     "preferredEditor": "tsprj",
-    "installedVersion": "workspace:dc77c768-6eb7-4ef9-c6e3-a9d2caaeb737"
+    "installedVersion": "workspace:a90e46e5-7020-4160-a91b-83aba54a4fb8",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
 }
