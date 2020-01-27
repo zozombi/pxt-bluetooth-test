@@ -10,6 +10,8 @@
         "README.md",
         "BLEHF2Service.cpp",
         "BLEHF2Service.h",
+        "bluetooth.cpp",
+        "bluetooth.h",
         "bt-light.ts",
         "bt-light.cpp",
         "shims.d.ts",
