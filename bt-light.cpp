@@ -3,6 +3,7 @@
 
 
 #include "pxt.h"
+#include "BLEHF2Service.h"
 #include "MicroBitUARTService.h"
 #include <cstdint>
 #include <math.h>
